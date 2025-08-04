@@ -80,7 +80,7 @@ void css_file_handler(const char *file){
 
 
 
-void grid_system(GtkWidget* grid_box,GtkWidget* widget,int row , int col , int x,int y )
+/*void grid_system(GtkWidget* grid_box,GtkWidget* widget,int row , int col , int x,int y )
 {
   gtk_grid_attach(GTK_GRID(grid_box), widget, row ,col, x, y);
  
