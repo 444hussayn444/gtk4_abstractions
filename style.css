@@ -1,0 +1,10 @@
+grid {
+    background-image: linear-gradient(120deg, blue, red);
+
+}
+
+.label {
+    background-color: rgb(48, 54, 231);
+    padding: 20px;
+    width: 100%;
+}
