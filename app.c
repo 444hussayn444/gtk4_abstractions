@@ -75,41 +75,7 @@ void css_file_handler(const char *file){
   g_object_unref(css_provider);
 }
 
-// full page component system - tomorrow - or at night i do no know;
 
-
-
-
-/*void grid_system(GtkWidget* grid_box,GtkWidget* widget,int row , int col , int x,int y )
-{
-  gtk_grid_attach(GTK_GRID(grid_box), widget, row ,col, x, y);
- 
-}
-/*
-  void activate_window(GtkApplication *application, gpointer user_data)
-  {
-  char widget_label[5] = "label";
-  char widget_button[6] = "button";
-  char widget_input[5] = "input";
-
-  char* file = "style.css";
-  
-  css_file_handler(file);
-
-  
-  GtkWidget *grid_box = gtk_grid_new();
-  GtkWidget *window = gtk_application_window_new(application);
-  GtkWidget *label = create_widget(widget_label, widget_label, "hello world");
-  
-  grid_system(GTK_WIDGET(grid_box),label,0,0,11,11);
-
-  
-  gtk_window_set_child(GTK_WINDOW(window), grid_box);
-  gtk_window_set_title(GTK_WINDOW(window), "APPLICATION-FOR-FREE");
-  gtk_window_set_default_size(GTK_WINDOW(window), 1000, 700);
-  gtk_window_present(GTK_WINDOW(window));
-  }
-*/
 int initialize_application(int args, char *argvs[])
 {
   gtk_init();
